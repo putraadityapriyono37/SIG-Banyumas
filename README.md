@@ -7,60 +7,52 @@ SIG - Banyumas adalah sistem informasi geografis yang bertujuan untuk memetakan 
 
 📌 Fitur Utama
 
-Pemetaan lokasi wisata menggunakan Google Maps API.
+1. Pemetaan lokasi wisata menggunakan Google Maps API.
 
-Informasi detail wisata (nama, deskripsi, alamat, dll).
+2. Informasi detail wisata (nama, deskripsi, alamat, dll).
 
-Kategori wisata (alam, budaya, kuliner, dll).
+3. Kategori wisata (alam, budaya, kuliner, dll).
 
-Tampilan responsif dan user-friendly.
+4. Tampilan responsif dan user-friendly.
 
 
 🛠️ Teknologi yang Digunakan
 
-PHP Native (tanpa framework)
+1. PHP Native (tanpa framework)
 
-HTML5, CSS3, JavaScript
+2. HTML5, CSS3, JavaScript
 
-Google Maps API
+3. Google Maps API
 
-MySQL sebagai database
+4. MySQL sebagai database
 
 
 📦 Prasyarat Instalasi
 
-Web server seperti Apache (XAMPP/WAMP/Laragon direkomendasikan)
+1. Web server seperti Apache (XAMPP/WAMP/Laragon direkomendasikan)
 
-PHP 7.4 atau lebih tinggi
+2. PHP 7.4 atau lebih tinggi
 
-MySQL / MariaDB
+3. MySQL
 
 
 🚀 Cara Menjalankan Aplikasi
 
-Clone repository
+1. Clone repository
 
 git clone https://github.com/nama-user/sig-banyumas.git 
 
-Impor database
+2. Impor database
 
-Import file sig_banyumas.sql ke dalam phpMyAdmin atau MySQL.
+Import file db_sigbms.sql ke dalam phpMyAdmin atau MySQL.
 
-Konfigurasi koneksi database
+3. Konfigurasi koneksi database
 
 Buka file config.php
 
-Sesuaikan konfigurasi sesuai host, username, password, dan nama database:
+Sesuaikan konfigurasi sesuai host, username, password, dan nama database
 
-define('DB_HOST', 'localhost');
-
-define('DB_USER', 'root');
-
-define('DB_PASS', '');
-
-define('DB_NAME', 'db_sigbms');
-
-Jalankan aplikasi
+4. Jalankan aplikasi
 
 Jalankan XAMPP atau web server lainnya.
 
